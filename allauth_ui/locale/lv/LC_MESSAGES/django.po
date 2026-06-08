@@ -1,0 +1,1850 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: django-allauth-ui\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-08 01:56-0500\n"
+"PO-Revision-Date: 2026-06-08 10:00+0200\n"
+"Last-Translator: Full Name <email@address>\n"
+"Language-Team: Latvian <ll@li.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: allauth_ui/templates/account/account_inactive.html:5
+msgid "Account Inactive"
+msgstr "Konti ir neaktīvs"
+
+#: allauth_ui/templates/account/account_inactive.html:6
+msgid "This account is inactive."
+msgstr "Šis konts ir neaktīvs."
+
+#: allauth_ui/templates/account/base_reauthenticate.html:5
+msgid "Confirm Access"
+msgstr "Apstiprināt piekļuvi"
+
+#: allauth_ui/templates/account/base_reauthenticate.html:6
+msgid ""
+"\n"
+"    Please reauthenticate to safeguard your account.\n"
+"    "
+msgstr ""
+"\n"
+"    Lūdzu, veiciet atkārtotu autentifikāciju, lai aizsargātu savu kontu.\n"
+"    "
+
+#: allauth_ui/templates/account/base_reauthenticate.html:13
+#: allauth_ui/templates/mfa/authenticate.html:17
+msgid "Alternative options"
+msgstr "Alternatīvas opcijas"
+
+#: allauth_ui/templates/account/confirm_login_code.html:8
+#: allauth_ui/templates/account/login.html:6
+#: allauth_ui/templates/allauth/layouts/base.html:55
+#: allauth_ui/templates/mfa/authenticate.html:11
+msgid "Sign In"
+msgstr "Pieslēgties"
+
+#: allauth_ui/templates/account/confirm_login_code.html:10
+msgid "Enter Sign-In Code"
+msgstr "Ievadiet pieslēgšanās kodu"
+
+#: allauth_ui/templates/account/confirm_login_code.html:15
+#, python-format
+msgid ""
+"We’ve sent a code to %(email_link)s. The code expires shortly, so please "
+"enter it soon."
+msgstr ""
+"Mēs nosūtījām kodu uz %(email_link)s. Koda derīguma termiņš drīz beigsies, tādēļ, lūdzu, ievadiet to pēc iespējas ātrāk."
+
+#: allauth_ui/templates/account/confirm_login_code.html:22
+#: allauth_ui/templates/mfa/authenticate.html:22
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: allauth_ui/templates/account/email.html:5
+msgid "Email Addresses"
+msgstr "E-pasta adreses"
+
+#: allauth_ui/templates/account/email.html:9
+msgid "The following email addresses are associated with your account:"
+msgstr "Ar jūsu kontu ir saistītas šādas e-pasta adreses:"
+
+#: allauth_ui/templates/account/email.html:22
+msgid "verified"
+msgstr "apstiprināta"
+
+#: allauth_ui/templates/account/email.html:25
+msgid "primary"
+msgstr "galvenā"
+
+#: allauth_ui/templates/account/email.html:41
+msgid "Make Primary"
+msgstr "Padarīt par galveno"
+
+#: allauth_ui/templates/account/email.html:44
+msgid "Re-send verification"
+msgstr "Nosūtīt apstiprinājumu atkārtoti"
+
+#: allauth_ui/templates/account/email.html:47
+#: allauth_ui/templates/socialaccount/connections.html:35
+msgid "Remove"
+msgstr "Noņemt"
+
+#: allauth_ui/templates/account/email.html:56
+msgid "Add Email Address"
+msgstr "Pievienot e-pasta adresi"
+
+#: allauth_ui/templates/account/email.html:57
+msgid "Add Email"
+msgstr "Pievienot e-pastu"
+
+#: allauth_ui/templates/account/email_confirm.html:7
+#: allauth_ui/templates/account/verification_sent.html:5
+msgid "Confirm Email Address"
+msgstr "Apstiprināt e-pasta adresi"
+
+#: allauth_ui/templates/account/email_confirm.html:13
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
+"address for user %(user_display)s."
+msgstr ""
+"Lūdzu, apstipriniet, ka <a href=\"mailto:%(email)s\">%(email)s</a> ir lietotāja %(user_display)s e-pasta adrese."
+
+#: allauth_ui/templates/account/email_confirm.html:16
+#: allauth_ui/templates/account/reauthenticate.html:9
+#: allauth_ui/templates/mfa/reauthenticate.html:9
+msgid "Confirm"
+msgstr "Apstiprināt"
+
+#: allauth_ui/templates/account/email_confirm.html:23
+#, python-format
+msgid ""
+"Unable to confirm %(email)s because it is already confirmed by a different "
+"account."
+msgstr ""
+"Neizdevās apstiprināt e-pastu %(email)s, jo tas jau ir apstiprināts citā kontā."
+
+#: allauth_ui/templates/account/email_confirm.html:29
+#, python-format
+msgid ""
+"This email confirmation link expired or is invalid. Please <a "
+"href=\"%(email_url)s\">issue a new email confirmation request</a>."
+msgstr ""
+"Šī e-pasta apstiprināšanas saite ir novecojusi vai nederīga. Lūdzu, <a href=\"%(email_url)s\">pieprasiet jaunu e-pasta apstiprinājumu</a>."
+
+#: allauth_ui/templates/account/login.html:10
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"            <a class=\"link\" href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+"Ja vēl neesat izveidojis kontu, lūdzu, vispirms\n"
+"            <a class=\"link\" href=\"%(signup_url)s\">reģistrējieties</a>."
+
+#: allauth_ui/templates/account/login.html:19
+msgid "Remember me"
+msgstr "Atcerēties mani"
+
+#: allauth_ui/templates/account/login.html:27
+msgid "Forgot password?"
+msgstr "Aizmirsi paroli?"
+
+#: allauth_ui/templates/account/login.html:33
+#: allauth_ui/templates/account/request_login_code.html:6
+msgid "Mail me a sign-in code"
+msgstr "Nosūtīt man pieslēgšanās kodu uz e-pastu"
+
+#: allauth_ui/templates/account/logout.html:5
+#: allauth_ui/templates/allauth/layouts/base.html:50
+#: allauth_ui/templates/usersessions/usersession_list.html:15
+msgid "Sign Out"
+msgstr "Izrakstīties"
+
+#: allauth_ui/templates/account/logout.html:6
+msgid "Are you sure you want to sign out?"
+msgstr "Vai tiešām vēlaties izrakstīties?"
+
+#: allauth_ui/templates/account/logout.html:9
+#: allauth_ui/templates/socialaccount/login.html:14
+#: allauth_ui/templates/socialaccount/signup.html:12
+msgid "Continue"
+msgstr "Turpināt"
+
+#: allauth_ui/templates/account/password_change.html:6
+#: allauth_ui/templates/account/password_reset_from_key.html:8
+#: allauth_ui/templates/account/password_reset_from_key.html:18
+#: allauth_ui/templates/account/password_reset_from_key_done.html:5
+#: allauth_ui/templates/allauth/layouts/base.html:38
+msgid "Change Password"
+msgstr "Mainīt paroli"
+
+#: allauth_ui/templates/account/password_change.html:14
+msgid "Forgot Password?"
+msgstr "Aizmirsi paroli?"
+
+#: allauth_ui/templates/account/password_reset.html:5
+#: allauth_ui/templates/account/password_reset_done.html:5
+msgid "Password Reset"
+msgstr "Paroles atiestatīšana"
+
+#: allauth_ui/templates/account/password_reset.html:11
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
+msgstr ""
+"Esat aizmirsis savu paroli? Ievadiet savu e-pasta adresi zemāk, un mēs nosūtīsim jums e-pastu ar saiti tās atiestatīšanai."
+
+#: allauth_ui/templates/account/password_reset.html:14
+msgid "Reset My Password"
+msgstr "Atiestatīt manu paroli"
+
+#: allauth_ui/templates/account/password_reset.html:20
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr "Lūdzu, sazinieties ar mums, ja rodas problēmas ar paroles atiestatīšanu."
+
+#: allauth_ui/templates/account/password_reset_done.html:11
+msgid ""
+"We have sent you an email. If you have not received it please check your "
+"spam folder. Otherwise contact us if you do not receive it in a few minutes."
+msgstr ""
+"Mēs nosūtījām jums e-pastu. Ja neesat to saņēmis, lūdzu, pārbaudiet mēstuļu (spam) mapi. Pretējā gadījumā sazinieties ar mums, ja nesaņemat to dažu minūšu laikā."
+
+#: allauth_ui/templates/account/password_reset_from_key.html:6
+msgid "Bad Token"
+msgstr "Nederīga marķieris (Token)"
+
+#: allauth_ui/templates/account/password_reset_from_key.html:14
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+"Paroles atiestatīšanas saite bija nederīga, iespējams, tāpēc, ka tā jau ir izmantota. Lūdzu, pieprasiet <a href=\"%(passwd_reset_url)s\">jaunu paroles atiestatīšanu</a>."
+
+#: allauth_ui/templates/account/password_reset_from_key_done.html:6
+msgid "Your password is now changed."
+msgstr "Jūsu parole ir veiksmīgi nomainīta."
+
+#: allauth_ui/templates/account/password_set.html:6
+msgid "Set Password"
+msgstr "Iestatīt paroli"
+
+#: allauth_ui/templates/account/reauthenticate.html:6
+msgid "Enter your password:"
+msgstr "Ievadiet savu paroli:"
+
+#: allauth_ui/templates/account/request_login_code.html:9
+msgid ""
+"You will receive an email containing a special code for a password-free sign-"
+"in."
+msgstr ""
+"Jūs saņemsiet e-pastu ar īpašu kodu, lai pieslēgtos bez paroles."
+
+#: allauth_ui/templates/account/signup.html:6
+#: allauth_ui/templates/allauth/layouts/base.html:59
+#: allauth_ui/templates/socialaccount/signup.html:6
+#: allauth_ui/templates/socialaccount/signup.html:14
+msgid "Sign Up"
+msgstr "Reģistrēties"
+
+#: allauth_ui/templates/account/signup.html:7
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\" "
+"class=\"link\">sign in</a>."
+msgstr ""
+"Jums jau ir konts? Tādā gadījumā, lūdzu, <a href=\"%(login_url)s\" class=\"link\">pieslēdzieties</a>."
+
+#: allauth_ui/templates/account/signup_closed.html:5
+msgid "Sign Up Closed"
+msgstr "Reģistrācija ir slēgta"
+
+#: allauth_ui/templates/account/signup_closed.html:6
+msgid "We are sorry, but the sign up is currently closed."
+msgstr "Diemžēl reģistrācija šobrīd ir slēgta."
+
+#: allauth_ui/templates/account/verification_sent.html:6
+msgid ""
+"We have sent an email to you for verification. Follow the link provided to "
+"finalize the signup process. If you do not see the verification email in "
+"your main inbox, check your spam folder. Please contact us if you do not "
+"receive the verification email within a few minutes."
+msgstr ""
+"Mēs nosūtījām jums apstiprinājuma e-pastu. Sekojiet tajā norādītajai saitei, lai pabeigtu reģistrācijas procesu. Ja neredzat e-pastu savā iesūtnē, pārbaudiet mēstuļu mapi. Ja nesaņemat e-pastu dažu minūšu laikā, lūdzu, sazinieties ar mums."
+
+#: allauth_ui/templates/allauth/layouts/base.html:34
+msgid "Change Email"
+msgstr "Mainīt e-pastu"
+
+#: allauth_ui/templates/allauth/layouts/base.html:42
+#: allauth_ui/templates/mfa/authenticate.html:6
+#: allauth_ui/templates/mfa/index.html:5
+msgid "Two-Factor Authentication"
+msgstr "Divfaktoru autentifikācija"
+
+#: allauth_ui/templates/allauth/layouts/base.html:46
+#: allauth_ui/templates/usersessions/usersession_list.html:6
+msgid "Sessions"
+msgstr "Sesijas"
+
+#: allauth_ui/templates/mfa/authenticate.html:7
+msgid ""
+"Your account is protected by two-factor authentication. Please enter an "
+"authenticator code:"
+msgstr ""
+"Jūsu konts ir aizsargāts ar divfaktoru autentifikāciju. Lūdzu, ievadiet autentifikatora kodu:"
+
+#: allauth_ui/templates/mfa/authenticate.html:10
+#: allauth_ui/templates/mfa/index.html:22
+#: allauth_ui/templates/mfa/totp/activate_form.html:10
+msgid "Activate"
+msgstr "Aktivizēt"
+
+#: allauth_ui/templates/mfa/authenticate.html:20
+msgid "Use a security key"
+msgstr "Izmantot drošības atslēgu"
+
+#: allauth_ui/templates/mfa/index.html:8
+msgid "Authenticator App"
+msgstr "Autentifikatora lietotne"
+
+#: allauth_ui/templates/mfa/index.html:11
+msgid "Authentication using an authenticator app is active."
+msgstr "Autentifikācija, izmantojot lietotni, ir aktīva."
+
+#: allauth_ui/templates/mfa/index.html:15
+#: allauth_ui/templates/mfa/totp/deactivate_form.html:11
+msgid "Deactivate"
+msgstr "Deaktivizēt"
+
+#: allauth_ui/templates/mfa/index.html:19
+msgid "An authenticator app is not active."
+msgstr "Autentifikatora lietotne nav aktīva."
+
+#: allauth_ui/templates/mfa/index.html:27
+msgid "Security Keys"
+msgstr "Drošības atslēgas"
+
+#: allauth_ui/templates/mfa/index.html:30
+#, python-format
+msgid "You have added %(count)s security key."
+msgid_plural "You have added %(count)s security keys."
+msgstr[0] "Jūs esat pievienojis %(count)s drošības atslēgu."
+msgstr[1] "Jūs esat pievienojis %(count)s drošības atslēgas."
+msgstr[2] "Jūs esat pievienojis %(count)s drošības atslēgu."
+
+#: allauth_ui/templates/mfa/index.html:34
+msgid "Manage"
+msgstr "Pārvaldīt"
+
+#: allauth_ui/templates/mfa/index.html:36
+msgid "No security keys have been added."
+msgstr "Nav pievienota neviena drošības atslēga."
+
+#: allauth_ui/templates/mfa/index.html:39
+msgid "Add"
+msgstr "Pievienot"
+
+#: allauth_ui/templates/mfa/index.html:45
+#: allauth_ui/templates/mfa/recovery_codes/generate.html:6
+#: allauth_ui/templates/mfa/recovery_codes/index.html:6
+msgid "Recovery Codes"
+msgstr "Atkopšanas kodi"
+
+#: allauth_ui/templates/mfa/index.html:48
+#: allauth_ui/templates/mfa/recovery_codes/index.html:7
+#, python-format
+msgid ""
+"There is %(unused_count)s out of %(total_count)s recovery codes available."
+msgid_plural ""
+"There are %(unused_count)s out of %(total_count)s recovery codes available."
+msgstr[0] "Ir pieejams %(unused_count)s no %(total_count)s atkopšanas koda."
+msgstr[1] "Ir pieejami %(unused_count)s no %(total_count)s atkopšanas kodiem."
+msgstr[2] "Ir pieejams %(unused_count)s no %(total_count)s atkopšanas kodiem."
+
+#: allauth_ui/templates/mfa/index.html:50
+msgid "No recovery codes set up."
+msgstr "Atkopšanas kodi nav iestatīti."
+
+#: allauth_ui/templates/mfa/index.html:59
+msgid "View"
+msgstr "Skatīt"
+
+#: allauth_ui/templates/mfa/index.html:62
+msgid "Download"
+msgstr "Lejupielādēt"
+
+#: allauth_ui/templates/mfa/index.html:67
+#: allauth_ui/templates/mfa/recovery_codes/generate.html:16
+msgid "Generate"
+msgstr "Ģenerēt"
+
+#: allauth_ui/templates/mfa/reauthenticate.html:6
+msgid "Enter an authenticator code:"
+msgstr "Ievadiet autentifikatora kodu:"
+
+#: allauth_ui/templates/mfa/recovery_codes/generate.html:7
+msgid "You are about to generate a new set of recovery codes for your account."
+msgstr "Jūs gatavojaties savam kontam uzģenerēt jaunu atkopšanas kodu komplektu."
+
+#: allauth_ui/templates/mfa/recovery_codes/generate.html:11
+msgid "This action will invalidate your existing codes."
+msgstr "Šī darbība padarīs jūsu pašreizējos kodus par nederīgiem."
+
+#: allauth_ui/templates/mfa/recovery_codes/generate.html:13
+msgid "Are you sure?"
+msgstr "Vai esat pārliecināts?"
+
+#: allauth_ui/templates/mfa/recovery_codes/index.html:11
+msgid "Unused codes"
+msgstr "Neizmantotie kodi"
+
+#: allauth_ui/templates/mfa/recovery_codes/index.html:21
+msgid "Download codes"
+msgstr "Lejupielādēt kodus"
+
+#: allauth_ui/templates/mfa/recovery_codes/index.html:24
+msgid "Generate new codes"
+msgstr "Ģenerēt jaunus kodus"
+
+#: allauth_ui/templates/mfa/totp/activate_form.html:7
+msgid "Activate Authenticator App"
+msgstr "Aktivizēt autentifikatora lietotni"
+
+#: allauth_ui/templates/mfa/totp/activate_form.html:8
+msgid ""
+"To protect your account with two-factor authentication, scan the QR code "
+"below with your authenticator app. Then, input the verification code "
+"generated by the app below."
+msgstr ""
+"Lai aizsargātu savu kontu ar divfaktoru autentifikāciju, noskenējiet zemāk redzamo QR kodu ar savu autentifikācijas lietotni. Pēc tam ievadiet lietotnes uzģenerēto apstiprinājuma kodu zemāk esošajā laukā."
+
+#: allauth_ui/templates/mfa/totp/activate_form.html:22
+msgid "Authenticator secret"
+msgstr "Autentifikatora slepenā atslēga (secret)"
+
+#: allauth_ui/templates/mfa/totp/activate_form.html:25
+msgid ""
+"You can store this secret and use it to reinstall your authenticator app at "
+"a later time."
+msgstr ""
+"Jūs varat saglabāt šo slepeno atslēgu, lai vēlāk nepieciešamības gadījumā atjaunotu autentifikācijas lietotni."
+
+#: allauth_ui/templates/mfa/totp/deactivate_form.html:5
+msgid "Deactivate Authenticator App"
+msgstr "Deaktivizēt autentifikatora lietotni"
+
+#: allauth_ui/templates/mfa/totp/deactivate_form.html:6
+msgid ""
+"You are about to deactivate authenticator app based authentication. Are you "
+"sure?"
+msgstr ""
+"Jūs gatavojaties deaktivizēt autentifikāciju ar lietotni. Vai esat pārliecināts?"
+
+#: allauth_ui/templates/socialaccount/authentication_error.html:5
+msgid "Third-Party Login Failure"
+msgstr "Trešās puses pieslēgšanās kļūda"
+
+#: allauth_ui/templates/socialaccount/authentication_error.html:6
+msgid ""
+"An error occurred while attempting to login via your third-party account."
+msgstr ""
+"Mēģinot pieslēgties ar trešās puses kontu, radās kļūda."
+
+#: allauth_ui/templates/socialaccount/connections.html:7
+msgid "Account Connections"
+msgstr "Konta savienojumi"
+
+#: allauth_ui/templates/socialaccount/connections.html:9
+msgid ""
+"\n"
+"        You can sign in to your account using any of the following third-"
+"party accounts:\n"
+"        "
+msgstr ""
+"\n"
+"        Jūs varat pieslēgties savam kontam, izmantojot kādu no šiem trešo pušu kontiem:\n"
+"        "
+
+#: allauth_ui/templates/socialaccount/connections.html:13
+msgid "You currently have no third-party accounts connected to this account."
+msgstr "Šim kontam šobrīd nav piesaistīts neviens trešās puses konts."
+
+#: allauth_ui/templates/socialaccount/connections.html:39
+msgid "Add a Third-Party Account"
+msgstr "Pievienot trešās puses kontu"
+
+#: allauth_ui/templates/socialaccount/login.html:7
+#, python-format
+msgid "Connect %(provider)s"
+msgstr "Piesaistīt %(provider)s"
+
+#: allauth_ui/templates/socialaccount/login.html:8
+#, python-format
+msgid "You are about to connect a new third-party account from %(provider)s."
+msgstr "Jūs gatavojaties piesaistīt jaunu trešās puses kontu no %(provider)s."
+
+#: allauth_ui/templates/socialaccount/login.html:10
+#, python-format
+msgid "Sign In Via %(provider)s"
+msgstr "Pieslēgties ar %(provider)s"
+
+#: allauth_ui/templates/socialaccount/login.html:11
+#, python-format
+msgid "You are about to sign in using a third-party account from %(provider)s."
+msgstr "Jūs gatavojaties pieslēgties, izmantojot trešās puses kontu %(provider)s."
+
+#: allauth_ui/templates/socialaccount/signup.html:7
+#, python-format
+msgid ""
+"\n"
+"        You are about to use your %(provider_name)s account to login to "
+"%(site_name)s.\n"
+"        As a final step, please complete the following form:\n"
+"    "
+msgstr ""
+"\n"
+"        Jūs gatavojaties izmantot savu %(provider_name)s kontu, lai pieslēgtos vietnei %(site_name)s.\n"
+"        Kā pēdējo soli, lūdzu, aizpildiet šo formu:\n"
+"    "
+
+#: allauth_ui/templates/socialaccount/snippets/login.html:8
+msgid "Or use a third-party"
+msgstr "Vai izmantot trešo pusi"
+
+#: allauth_ui/templates/usersessions/usersession_list.html:12
+msgid "Sign Out Other Sessions"
+msgstr "Izrakstīt pārējās sesijas"
+
+#: allauth_ui/templates/usersessions/usersession_list.html:23
+msgid "Started At"
+msgstr "Sākta"
+
+#: allauth_ui/templates/usersessions/usersession_list.html:24
+msgid "IP Address"
+msgstr "IP adrese"
+
+#: allauth_ui/templates/usersessions/usersession_list.html:25
+msgid "Browser"
+msgstr "Pārlūkprogramma"
+
+#: allauth_ui/templates/usersessions/usersession_list.html:27
+msgid "Last seen at"
+msgstr "Pēdējo reizi redzēta"
+
+#: allauth_ui/templates/usersessions/usersession_list.html:50
+msgid "Current"
+msgstr "Pašreizējā"
+
+#: tests/settings.py:88
+msgid "English"
+msgstr "Angļu"
+
+#: tests/settings.py:89
+msgid "Spanish"
+msgstr "Spāņu"
+
+#: tests/settings.py:90
+msgid "French"
+msgstr "Franču"
+
+#: tests/settings.py:91
+msgid "Portuguese (Brazil)"
+msgstr "Portugāļu (Brazīlija)"
+
+#: tests/settings.py:92
+msgid "Turkish)"
+msgstr "Turku"
+
+#: venv/lib/python3.14/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr "Paziņojumi"
+
+#: venv/lib/python3.14/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr "Vietnes kartes"
+
+#: venv/lib/python3.14/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr "Statiskie faili"
+
+#: venv/lib/python3.14/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr "Sindikācija"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:33
+msgid "…"
+msgstr "…"
+
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:35
+msgid "That page number is not an integer"
+msgstr "Lapas numurs nav vesels skaitlis"
+
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:36
+msgid "That page number is less than 1"
+msgstr "Lapas numurs ir mazāks par 1"
+
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:37
+msgid "That page contains no results"
+msgstr "Šajā lapā nav rezultātu"
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr "Ievadiet derīgu vērtību."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr "Ievadiet derīgu domēna vārdu."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:153
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:773
+msgid "Enter a valid URL."
+msgstr "Ievadiet derīgu URL."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:200
+msgid "Enter a valid integer."
+msgstr "Ievadiet derīgu veselu skaitli."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:211
+msgid "Enter a valid email address."
+msgstr "Ievadiet derīgu e-pasta adresi."
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.14/site-packages/django/core/validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+"Ievadiet derīgu \"slug\" (saiti), kas sastāv tikai no burtiem, skaitļiem, pasvītrojumiem vai domuzīmēm."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+"Ievadiet derīgu \"slug\" (saiti), kas sastāv no Unicode burtiem, skaitļiem, pasvītrojumiem vai domuzīmēm."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:309
+#: venv/lib/python3.14/site-packages/django/core/validators.py:318
+#: venv/lib/python3.14/site-packages/django/core/validators.py:332
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr "Ievadiet derīgu %(protocol)s adresi."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:311
+msgid "IPv4"
+msgstr "IPv4"
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:320
+#: venv/lib/python3.14/site-packages/django/utils/ipv6.py:43
+msgid "IPv6"
+msgstr "IPv6"
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:334
+msgid "IPv4 or IPv6"
+msgstr "IPv4 vai IPv6"
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr "Ievadiet tikai ciparus, kas atdalīti ar komatiem."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr "Pārliecinieties, ka šī vērtība ir %(limit_value)s (šobrīd tā ir %(show_value)s)."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr "Pārliecinieties, ka šī vērtība ir mazāka vai vienāda ar %(limit_value)s."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr "Pārliecinieties, ka šī vērtība ir lielāka vai vienāda ar %(limit_value)s."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr "Pārliecinieties, ka šī vērtība dalās ar soļa lielumu %(limit_value)s."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+"Pārliecinieties, ka šī vērtība dalās ar soļa lielumu %(limit_value)s, sākot no %(offset)s, piemēram, %(offset)s, %(valid_value1)s, %(valid_value2)s utt."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] "Šai vērtībai jāsatur vismaz %(limit_value)d zīme (tā satur %(show_value)d)."
+msgstr[1] "Šai vērtībai jāsatur vismaz %(limit_value)d zīmes (tā satur %(show_value)d)."
+msgstr[2] "Šai vērtībai jāsatur vismaz %(limit_value)d zīmju (tā satur %(show_value)d)."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] "Šī vērtība drīkst saturēt ne vairāk kā %(limit_value)d zīmi (tā satur %(show_value)d)."
+msgstr[1] "Šī vērtība drīkst saturēt ne vairāk kā %(limit_value)d zīmes (tā satur %(show_value)d)."
+msgstr[2] "Šī vērtība drīkst saturēt ne vairāk kā %(limit_value)d zīmju (tā satur %(show_value)d)."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:514
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:364
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:403
+msgid "Enter a number."
+msgstr "Ievadiet skaitli."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] "Kopā nedrīkst būt vairāk par %(max)s ciparu."
+msgstr[1] "Kopā nedrīkst būt vairāk par %(max)s cipariem."
+msgstr[2] "Kopā nedrīkst būt vairāk par %(max)s ciparu."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] "Aiz komata nedrīkst būt vairāk par %(max)s ciparu zīmi."
+msgstr[1] "Aiz komata nedrīkst būt vairāk par %(max)s ciparu zīmēm."
+msgstr[2] "Aiz komata nedrīkst būt vairāk par %(max)s ciparu zīmju."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] "Pirms komata nedrīkst būt vairāk par %(max)s ciparu."
+msgstr[1] "Pirms komata nedrīkst būt vairāk par %(max)s cipariem."
+msgstr[2] "Pirms komata nedrīkst būt vairāk par %(max)s ciparu."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+"Faila paplašinājums “%(extension)s” nav atļauts. Atļautie paplašinājumi ir: %(allowed_extensions)s."
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:659
+msgid "Null characters are not allowed."
+msgstr "Null rakstzīmes nav atļautas."
+
+#: venv/lib/python3.14/site-packages/django/db/models/base.py:1633
+#: venv/lib/python3.14/site-packages/django/forms/models.py:932
+msgid "and"
+msgstr "un"
+
+#: venv/lib/python3.14/site-packages/django/db/models/base.py:1635
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr "%(model_name)s ar šādu %(field_labels)s jau eksistē."
+
+#: venv/lib/python3.14/site-packages/django/db/models/constraints.py:20
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr "Pārkāpts ierobežojums “%(name)s”."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr "Vērtība %(value)r nav derīga izvēle."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be null."
+msgstr "Šis lauks nevar būt tukšs (null)."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:136
+msgid "This field cannot be blank."
+msgstr "Šis lauks nedrīkst būt tukšs."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr "%(model_name)s ar šādu %(field_label)s jau eksistē."
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+"Laukam %(field_label)s jābūt unikālam priekš %(date_field_label)s %(lookup_type)s."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr "Lauka tips: %(field_type)s"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1161
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr "Vērtībai “%(value)s” jābūt True vai False."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr "Vērtībai “%(value)s” jābūt True, False vai None."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1164
+msgid "Boolean (Either True or False)"
+msgstr "Būla vērtība (True vai False)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1214
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr "Rinda (līdz %(max_length)s zīmēm)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1216
+msgid "String (unlimited)"
+msgstr "Rinda (neierobežota)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1325
+msgid "Comma-separated integers"
+msgstr "Veseli skaitļi, atdalīti ar komatiem"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1426
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+"Vērtībai “%(value)s” ir nederīgs datuma formāts. Tam jābūt YYYY-MM-DD formātā."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1430
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1565
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+"Vērtībai “%(value)s” ir pareizs formāts (YYYY-MM-DD), taču tas ir nederīgs datums."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1434
+msgid "Date (without time)"
+msgstr "Datums (bez laika)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1561
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+"Vērtībai “%(value)s” ir nederīgs formāts. Tam jābūt YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] formātā."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1569
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+"Vērtībai “%(value)s” ir pareizs formāts (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]), taču tas ir nederīgs datums/laiks."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1574
+msgid "Date (with time)"
+msgstr "Datums (ar laiku)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1701
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr "Vērtībai “%(value)s” jābūt decimālskaitlim."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1703
+msgid "Decimal number"
+msgstr "Decimālskaitlis"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+"Vērtībai “%(value)s” ir nederīgs formāts. Tam jābūt [DD] [[HH:]MM:]ss[.uuuuuu] formātā."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1868
+msgid "Duration"
+msgstr "Ilgums"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1920
+msgid "Email address"
+msgstr "E-pasta adrese"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1945
+msgid "File path"
+msgstr "Ceļš līdz failam"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr "Vērtībai “%(value)s” jābūt peldošā komata skaitlim (float)."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2025
+msgid "Floating point number"
+msgstr "Peldošā komata skaitlis"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr "Vērtībai “%(value)s” jābūt veselam skaitlim."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2067
+msgid "Integer"
+msgstr "Vesels skaitlis"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr "Liels (8 baitu) vesels skaitlis"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2180
+msgid "Small integer"
+msgstr "Mazs vesels skaitlis"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2188
+msgid "IPv4 address"
+msgstr "IPv4 adrese"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2219
+msgid "IP address"
+msgstr "IP adrese"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2310
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr "Vērtībai “%(value)s” jābūt None, True vai False."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr "Būla vērtība (True, False vai None)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2364
+msgid "Positive big integer"
+msgstr "Pozitīvs liels vesels skaitlis"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2379
+msgid "Positive integer"
+msgstr "Pozitīvs vesels skaitlis"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2394
+msgid "Positive small integer"
+msgstr "Pozitīvs mazs vesels skaitlis"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr "Slug / saite (līdz %(max_length)s zīmēm)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2446
+msgid "Text"
+msgstr "Teksts"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+"Vērtībai “%(value)s” ir nederīgs formāts. Tam jābūt HH:MM[:ss[.uuuuuu]] formātā."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+"Vērtībai “%(value)s” ir pareizs formāts (HH:MM[:ss[.uuuuuu]]), taču tas ir nederīgs laiks."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2534
+msgid "Time"
+msgstr "Laiks"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2642
+msgid "URL"
+msgstr "URL"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2666
+msgid "Raw binary data"
+msgstr "Binārie dati (raw)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr "“%(value)s” nav derīgs UUID."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2733
+msgid "Universally unique identifier"
+msgstr "Universāli unikālais identifikators (UUID)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/files.py:244
+msgid "File"
+msgstr "Fails"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/files.py:420
+msgid "Image"
+msgstr "Attēls"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/json.py:24
+msgid "A JSON object"
+msgstr "JSON objekts"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/json.py:26
+msgid "Value must be valid JSON."
+msgstr "Vērtībai jābūt derīgam JSON."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:974
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr "%(model)s instance ar %(field)s %(value)r nav derīga izvēle."
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:977
+msgid "Foreign Key (type determined by related field)"
+msgstr "Ārējā atslēga (foreign key)"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1271
+msgid "One-to-one relationship"
+msgstr "Attiecība viens-pret-vienu"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1328
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr "%(from)s-%(to)s attiecība"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1330
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr "%(from)s-%(to)s attiecības"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1378
+msgid "Many-to-many relationship"
+msgstr "Attiecība daudzi-pret-daudziem"
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to
+#. the label
+#: venv/lib/python3.14/site-packages/django/forms/boundfield.py:188
+msgid ":?.!"
+msgstr ":?.!"
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:91
+msgid "This field is required."
+msgstr "Šis lauks ir obligāts."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:313
+msgid "Enter a whole number."
+msgstr "Ievadiet veselu skaitli."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:484
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1241
+msgid "Enter a valid date."
+msgstr "Ievadiet derīgu datumu."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:507
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1242
+msgid "Enter a valid time."
+msgstr "Ievadiet derīgu laiku."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:534
+msgid "Enter a valid date/time."
+msgstr "Ievadiet derīgu datumu/laiku."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:568
+msgid "Enter a valid duration."
+msgstr "Ievadiet derīgu ilgumu."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:569
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr "Dienu skaitam jābūt starp {min_days} un {max_days}."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:638
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr "Fails netika iesniegts. Pārbaudiet formas kodējuma tipu (encoding type)."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:639
+msgid "No file was submitted."
+msgstr "Fails netika iesniegts."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:640
+msgid "The submitted file is empty."
+msgstr "Iesniegtais fails ir tukšs."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:642
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] "Faila nosaukums nedrīkst būt garāks par %(max)d zīmi (tam ir %(length)d)."
+msgstr[1] "Faila nosaukums nedrīkst būt garāks par %(max)d zīmēm (tam ir %(length)d)."
+msgstr[2] "Faila nosaukums nedrīkst būt garāks par %(max)d zīmju (tam ir %(length)d)."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:647
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr "Lūdzu, iesniedziet failu vai atzīmējiet dzēšanas izvēles rūtiņu, bet ne abus."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:715
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+"Augšupielādējiet derīgu attēlu. Jūsu augšupielādētais fails nebija attēls vai arī tas bija bojāts."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:862
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:949
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1621
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr "Izvēlieties derīgu variantu. %(value)s nav starp pieejamajām izvēlēm."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:951
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1070
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1619
+msgid "Enter a list of values."
+msgstr "Ievadiet vērtību sarakstu."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1071
+msgid "Enter a complete value."
+msgstr "Ievadiet pilnīgu vērtību."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1313
+msgid "Enter a valid UUID."
+msgstr "Ievadiet derīgu UUID."
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1343
+msgid "Enter a valid JSON."
+msgstr "Ievadiet derīgu JSON."
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.14/site-packages/django/forms/forms.py:97
+msgid ":"
+msgstr ":"
+
+#: venv/lib/python3.14/site-packages/django/forms/forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr "(Slēptais lauks %(name)s) %(error)s"
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+"Trūkst ManagementForm datu vai tie ir tikuši izmainīti. Trūkstošie lauki: %(field_names)s."
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] "Lūdzu, iesniedziet ne vairāk kā %(num)d formu."
+msgstr[1] "Lūdzu, iesniedziet ne vairāk kā %(num)d formas."
+msgstr[2] "Lūdzu, iesniedziet ne vairāk kā %(num)d formu."
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] "Lūdzu, iesniedziet vismaz %(num)d formu."
+msgstr[1] "Lūdzu, iesniedziet vismaz %(num)d formas."
+msgstr[2] "Lūdzu, iesniedziet vismaz %(num)d formu."
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr "Secība"
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr "Dzēst"
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:925
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr "Lūdzu, labojiet dublētos datus laukā %(field)s."
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:930
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr "Lūdzu, labojiet dublētos datus laukā %(field)s, kuram jābūt unikālam."
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:937
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+"Lūdzu, labojiet dublētos datus laukā %(field_name)s, kuram jābūt unikālam attiecībā uz %(lookup)s laukā %(date_field)s."
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:946
+msgid "Please correct the duplicate values below."
+msgstr "Lūdzu, labojiet zemāk redzamās dublētās vērtības."
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1383
+msgid "The inline value did not match the parent instance."
+msgstr "Iekļautā (inline) vērtība nesakrita ar vecāka (parent) instanci."
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1474
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr "Izvēlieties derīgu variantu. Šī izvēle nav starp pieejamajām opcijām."
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1623
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr "“%(pk)s” nav derīga vērtība."
+
+#: venv/lib/python3.14/site-packages/django/forms/utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+"%(datetime)s nevarēja interpretēt laika zonā %(current_timezone)s; tas var būt neviennozīmīgs vai neeksistēt."
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:528
+msgid "Clear"
+msgstr "Notīrīt"
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:529
+msgid "Currently"
+msgstr "Šobrīd"
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:530
+msgid "Change"
+msgstr "Mainīt"
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:869
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:870
+msgid "Yes"
+msgstr "Jā"
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:871
+msgid "No"
+msgstr "Nē"
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:34
+msgctxt "Task"
+msgid "Ready"
+msgstr "Gatavs"
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:36
+msgctxt "Task"
+msgid "Running"
+msgstr "Izpildās"
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:38
+msgctxt "Task"
+msgid "Failed"
+msgstr "Neizdevās"
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:40
+msgctxt "Task"
+msgid "Successful"
+msgstr "Veiksmīgs"
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:878
+msgid "yes,no,maybe"
+msgstr "jā,nē,varbūt"
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:908
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:925
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] "%(size)d baits"
+msgstr[1] "%(size)d baitu"
+msgstr[2] "%(size)d baitu"
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:927
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:929
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:931
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:933
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:935
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr "pēcpusdienā"
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr "priekšpusdienā"
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr "PM"
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr "AM"
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr "pusnakts"
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr "pusdienlaiks"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr "Pirmdiena"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr "Otrdiena"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr "Trešdiena"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr "Ceturtdiena"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr "Piektdiena"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr "Sestdiena"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr "Svētdiena"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr "Pr"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr "Ot"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr "Tr"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr "Ce"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr "Pk"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr "Se"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr "Sv"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr "Janvāris"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr "Februāris"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr "Marts"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr "Aprīlis"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr "Maijs"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr "Jūnijs"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr "Jūlijs"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr "Augusts"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr "Septembris"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr "Oktobris"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr "Novembris"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr "Decembris"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr "jan"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr "feb"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr "mar"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr "apr"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr "mai"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr "jūn"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr "jūl"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr "aug"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr "sep"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr "okt"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr "nov"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr "dec"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr "Janv."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr "Febr."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr "Marts"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr "Apr."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr "Maijs"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr "Jūn."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr "Jūl."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr "Augst."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr "Sept."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr "Okt."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr "Novem."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr "Decem."
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr "janvārī"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr "februārī"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr "martā"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr "aprīlī"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr "maijā"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr "jūnijā"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr "jūlijā"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr "augustā"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr "septembrī"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr "oktobrī"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr "novembrī"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr "decembrī"
+
+#: venv/lib/python3.14/site-packages/django/utils/ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr "Šī nav derīga IPv6 adrese."
+
+#: venv/lib/python3.14/site-packages/django/utils/text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr "%(truncated_text)s…"
+
+#: venv/lib/python3.14/site-packages/django/utils/text.py:282
+msgid "or"
+msgstr "vai"
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.14/site-packages/django/utils/text.py:301
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ", "
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] "%(num)d gads"
+msgstr[1] "%(num)d gadi"
+msgstr[2] "%(num)d gadu"
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] "%(num)d mēnesis"
+msgstr[1] "%(num)d mēneši"
+msgstr[2] "%(num)d mēnešu"
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] "%(num)d nedēļa"
+msgstr[1] "%(num)d nedēļas"
+msgstr[2] "%(num)d nedēļu"
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] "%(num)d diena"
+msgstr[1] "%(num)d dienas"
+msgstr[2] "%(num)d dienu"
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] "%(num)d stunda"
+msgstr[1] "%(num)d stundas"
+msgstr[2] "%(num)d stundu"
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] "%(num)d minūte"
+msgstr[1] "%(num)d minūtes"
+msgstr[2] "%(num)d minūšu"
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr "Aizliegts"
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr "CSRF pārbaude neizdevās. Pieprasījums pārtraukts."
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+"Jūs redzat šo paziņojumu, jo šī HTTPS vietne pieprasa, lai jūsu pārlūkprogramma nosūtītu “Referer header” galveni, taču neviena netika saņemta. Šī galvene ir nepieciešama drošības apsvērumu dēļ."
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+"Ja esat atspējojis “Referer” galvenes savā pārlūkā, lūdzu, iespējojiet tās no jauna (vismaz šai vietnei vai HTTPS savienojumiem)."
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+"Ja izmantojat tagu <meta name=\"referrer\" content=\"no-referrer\"> vai galveni “Referrer-Policy: no-referrer”, lūdzu, noņemiet tos, jo CSRF aizsardzībai ir nepieciešama korekta “Referer” galvene."
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+"Jūs redzat šo ziņojumu, jo šī vietne formu iesniegšanai pieprasa CSRF sīkfailu (cookie). Šis sīkfails ir nepieciešams drošības nolūkos."
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+"Ja esat atspējojis sīkfailus (cookies) savā pārlūkprogrammā, lūdzu, iespējojiet tos vismaz šai vietnei."
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr "Plašāka informācija ir pieejama, ja iestatīts DEBUG=True."
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr "Nav norādīts gads"
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr "Datums ārpus diapazona"
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr "Nav norādīts mēnesis"
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr "Nav norādīta diena"
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr "Nav norādīta nedēļa"
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:353
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr "Nav pieejamu %(verbose_name_plural)s"
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+"Nākotnes %(verbose_name_plural)s nav pieejami, jo mainīgais %(class_name)s.allow_future ir iestatīts kā False."
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:720
+#, python-format
+msgid "Phonetic invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr "Nederīga datuma rinda “%(datestr)s” dotajam formātam “%(format)s”"
+
+#: venv/lib/python3.14/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr "Nav atrasts neviens %(verbose_name)s, kas atbilst pieprasījumam"
+
+#: venv/lib/python3.14/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr "Lapa nav “pēdējā”, kā arī to nevar pārveidot par veselu skaitli (int)."
+
+#: venv/lib/python3.14/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr "Nederīga lapa (%(page_number)s): %(message)s"
+
+#: venv/lib/python3.14/site-packages/django/views/generic/list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr "Saraksts ir tukšs, un mainīgais “%(class_name)s.allow_empty” ir False."
+
+#: venv/lib/python3.14/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr "Mapes satura indeksēšana šeit nav atļauta."
+
+#: venv/lib/python3.14/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr "“%(path)s” neeksite"
+
+#: venv/lib/python3.14/site-packages/django/views/static.py:68
+#: venv/lib/python3.14/site-packages/django/views/templates/directory_index.html:8
+#: venv/lib/python3.14/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr "Mapes %(directory)s saturs"
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr "Instalācija noritēja veiksmīgi! Apsveicam!"
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+"Skatīt Django %(version)s <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" target=\"_blank\" rel=\"noopener\">versijas izmaiņu piezīmes</a>"
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+"Jūs redzat šo lapu, jo iestatījumu failā ir norādīts <a href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener\">DEBUG=True</a> un jūs vēl neesat konfigurējis nevienu URL."
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:217
+msgid "Django Documentation"
+msgstr "Django dokumentācija"
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr "Tēmas, atsauces un pamācības"
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr "Pamācība: Aptauju lietotne"
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:227
+msgid "Get started with Django"
+msgstr "Sāciet darbu ar Django"
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:235
+msgid "Django Community"
+msgstr "Django kopiena"
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr "Sazinieties, saņemiet palīdzību vai sniedziet savu ieguldījumu"
